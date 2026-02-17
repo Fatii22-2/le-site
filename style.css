@@ -1,22 +1,27 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: #0d0d0d;
-    color: white;
+    background: #ffffff; /* بدل الكحل بالأبيض */
+    color: #0d0d0d; /* نص غامق باش يبان */
 }
 
 header {
     display: flex;
     justify-content: space-between;
     padding: 20px 50px;
-    background: black;
+    background: white; /* كان كحل */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
 nav a {
-    color: #FFC107;
+    color: #0d0d0d;
     margin: 15px;
     text-decoration: none;
     font-weight: bold;
+}
+
+nav a:hover {
+    color: #FFC107; /* لون شمسي */
 }
 
 .hero {
@@ -24,11 +29,7 @@ nav a {
     align-items: center;
     justify-content: space-around;
     padding: 80px;
-    background: linear-gradient(to right, #000000, #1a1a1a);
-}
-
-.hero img {
-    width: 350px;
+    background: linear-gradient(to right, #ffffff, #f8f9fa);
 }
 
 .hero button {
@@ -37,11 +38,13 @@ nav a {
     background: #FFC107;
     font-weight: bold;
     border-radius: 30px;
+    color: black;
 }
 
 .features {
     text-align: center;
     padding: 60px;
+    background: #f9f9f9;
 }
 
 .cards {
@@ -51,11 +54,12 @@ nav a {
 }
 
 .card {
-    background: #1a1a1a;
+    background: white;
     padding: 30px;
     border-radius: 15px;
     width: 250px;
     transition: 0.3s;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
 }
 
 .card:hover {
@@ -67,15 +71,19 @@ nav a {
 .slider {
     text-align: center;
     padding: 60px;
-}
-
-.slide-container {
-    display: flex;
-    overflow-x: auto;
-    gap: 20px;
+    background: white;
 }
 
 .slide-container img {
     width: 300px;
     border-radius: 15px;
+}
+
+footer {
+    background: #0d0d0d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
 }
