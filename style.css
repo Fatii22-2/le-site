@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0d0d0d;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: black;
+}
+
+nav a {
+    color: #FFC107;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px;
+    background: linear-gradient(to right, #000000, #1a1a1a);
+}
+
+.hero img {
+    width: 350px;
+}
+
+.hero button {
+    padding: 12px 25px;
+    border: none;
+    background: #FFC107;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.features {
+    text-align: center;
+    padding: 60px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 30px;
+    border-radius: 15px;
+    width: 250px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background: #FFC107;
+    color: black;
+}
+
+.slider {
+    text-align: center;
+    padding: 60px;
+}
+
+.slide-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.slide-container img {
+    width: 300px;
+    border-radius: 15px;
+}
